@@ -1,0 +1,77 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo {
+    background: #00425a;
+}
+
+.logo img {
+    width: 15%;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+li.level1 a {
+    color: #fff;
+}
+
+li.level1 {
+    position: relative;
+}
+
+ul.level2 {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+}
+
+ul.menubar li {
+    background: #1979bd;
+    padding: 8px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+}
+
+li.level1:hover .level2 {
+    display: block;
+}
+
+ul.level2 li {
+    display: block;
+    padding: 6px 18px;
+    border: 2px solid;
+    border-radius: 11px;
+    margin-left: 3px;
+    background: #00b0f0;
+    cursor:pointer;
+}
+
+ul.level2 li:hover {
+    background: #948a8a;
+}
+
+ul.level2 {
+    display:none;
+}
+
+span.logoutsection {
+    float: right;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+p.headeradmin {
+    border-bottom: 2px solid #ffa500;
+    padding: 8px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+

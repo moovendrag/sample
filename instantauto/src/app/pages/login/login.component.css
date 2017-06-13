@@ -1,0 +1,59 @@
+
+legend.loginsection {
+    border-bottom: none;
+    margin-top: 10%;
+}
+
+.controls {
+    display: inline-block;
+    margin: 7px;
+}
+
+.fpassword {
+    margin-left: -100%;
+}
+
+::-webkit-input-placeholder {
+    color: #bdb3b3;
+}
+
+.innersection input.box {
+    margin-left: 15px;
+}
+
+.email label {
+    margin-right: 6px;
+}
+
+.loginstructure {
+    text-align: center;
+}
+
+.innersection {
+    display: inline-block;
+    border: 2px solid #008bbe;
+    margin: 3% auto;
+    padding: 20px 85px;
+}
+
+.email {
+    margin: 20px;
+}
+
+input.box {
+    padding: 10px;
+}
+
+.buttons {
+    margin: 25px;
+}
+
+button.submitbtn {
+    padding: 6px;
+    margin-left: -50px;
+}
+
+.headermenu {
+    display:none;
+}
+

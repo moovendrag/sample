@@ -1,0 +1,18 @@
+.dealerimage {
+    border: 2px solid #00b0f0;
+    margin: 12% auto;
+}
+
+.viewdealerinnersection {
+    border: 2px solid #008bbe;
+}
+
+fieldset.view-dealer-information {
+    margin: 5% 0;
+}
+
+    @media (max-width: 480px) {
+		fieldset.view-dealer-information {
+          margin: 25% 0;
+        }
+    }

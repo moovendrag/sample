@@ -1,0 +1,44 @@
+{
+  "name": "autotrek-webapp",
+  "version": "0.0.1",
+  "description": "The AutoTrek Web Application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AutoTrek/AutoTrekWebApp.git"
+  },
+  "author": {
+    "name": "Intent Solutions Group",
+    "url": "http://www.intentsg.com",
+    "email": "support@intentsg.com"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.15.3",
+    "http-proxy-middleware": "^0.17.4",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "rimraf": "^2.6.1",
+    "tar": "^3.1.3"
+  },
+  "scripts": {
+    "postinstall": "cd instantauto && npm install && cd ..",
+    "start": "node server/server.js",
+    "lint": "eslint --format 'node_modules/eslint-friendly-formatter' server/",
+    "clean": "rimraf auto-trek-package.tar.gz && cd instantauto && npm run clean",
+    "build": "npm run build:dev",
+    "build:dev": "cd instantauto && npm run build -- --target=development && cd ..",
+    "build:prod": "cd instantauto && npm run build -- --target=production && cd ..",
+    "prepackage": "npm run clean && npm run build:prod",
+    "package": "node build-package.js"
+  }
+}

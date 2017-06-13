@@ -1,0 +1,9 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": "eslint-config-standard",
+  "rules": {
+    "semi": ["error", "always"]
+  }
+}

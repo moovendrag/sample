@@ -1,0 +1,108 @@
+<div class="container">
+    <div class="row">
+        <form class="form-horizontal" action='' method="POST">
+            <fieldset class="add-dealer-information">
+                <p class="title">Add - Dealer Information</p>
+                <div class="adddealerinnersection col-md-12 col-sm-12">
+                    <span class="control-group col-md-6 col-sm-6">
+                        <label class="control-label star" for="dealername">Dealer Name</label>
+                        <span class="controls">
+                            <input type="text" id="dealername" name="dealername" required placeholder="Dealer Name" class="input-xlarge box">
+                        </span>
+                    </span>
+                    <span class="control-group col-md-6 col-sm-6">
+                        <label class="control-label star" for="primarycontactname">Primary Contact Name</label>
+                        <span class="controls">
+                            <input type="text" id="primarycontactname" name="primarycontactname" required  placeholder="Contact Name" class="input-xlarge box">
+                        </span>
+                    </span>
+                    <span class="control-group col-md-6 col-sm-6">
+                        <label class="control-label star" for="primarycontactemailid">Primary Contact Email ID</label>
+                        <span class="controls">
+                            <input type="text" id="primarycontactemailid" name="email" required placeholder="E-mail" class="input-xlarge box">
+                        </span>
+                    </span>
+                    <span class="control-group col-md-6 col-sm-6">
+                        <label class="control-label star" for="primarycontactmobile">Primary Contact Mobile</label>
+                        <span class="controls">
+                            <input type="text" id="primarycontactmobile" name="primarycontactmobile" required placeholder="Mobile" class="input-xlarge box">
+                        </span>
+                    </span>
+                    <span class="control-group col-md-6 col-sm-6">
+                        <label class="control-label star" for="primarycontactdesignation">Primary Contact Designation</label>
+                        <span class="controls">
+                            <input type="text" id="primarycontactdesignation" name="primarycontactdesignation" required placeholder="Designation" class="input-xlarge box">
+                        </span>
+                    </span>
+                    <span class="control-group col-md-6 col-sm-6">
+                        <label class="control-label star" for="primarycontactiqamano">Primary Contact Iqama No</label>
+                        <span class="controls">
+                            <input type="text" id="primarycontactiqamano" name="IqamaNo" placeholder="Iqama No" required class="input-xlarge box">
+                        </span>
+                    </span>
+                    <span class="control-group col-md-6 col-sm-6">
+                        <label class="control-label star" for="officeaddressline1">Address Line 1</label>
+                        <span class="controls">
+                            <input type="text" id="address1" name="address1" placeholder="address Line 1" required class="input-xlarge box">
+                        </span>
+                    </span>
+                    <span class="control-group col-md-6 col-sm-6">
+                        <label class="control-label" for="officeaddressline2">Address Line 2</label>
+                        <span class="controls">
+                            <input type="text" id="address2" name="officeaddressline2" placeholder="Address Line 2" required class="input-xlarge box">
+                        </span>
+                    </span>
+                    <span class="control-group col-md-6 col-sm-6">
+                        <label class="control-label" for="streetcity">Street</label>
+                        <span class="controls">
+                            <input type="text" id="Streetcity" name="StreetCity" placeholder="Street" required class="input-xlarge box">
+                        </span>
+                    </span>
+                    <span class="control-group col-md-6 col-sm-6">
+                        <label class="control-label" for="City">City</label>
+                        <span class="controls">
+                            <input type="text" id="city" name="City" placeholder="City" required class="input-xlarge box">
+                        </span>
+                    </span>
+                    <span class="control-group col-md-6 col-sm-6">
+                        <label class="control-label star" for="state">State</label>
+                        <span class="controls">
+                              <select name="States" class="soudistate">
+                                <option value="Qassim">Qassim</option>
+                                <option value="Riyadh">Riyadh</option>
+                                <option value="Tabuk">Tabuk</option>
+                                <option value="Madinah">Madinah</option>
+                                <option value="Makkah">Makkah</option>
+                                <option value="Northern Borders">Northern Borders</option>
+                                <option value="Jawf">Jawf</option>
+                                <option value="Ha'il">Ha'il</option>
+                                <option value="Bahah">Bahah</option>
+                                <option value="Jizan">Jizan</option>
+                                <option value="'Asir">Asir</option>
+                                <option value="Najran">Najran</option>
+                                <option value="Eastern Province">Eastern Province</option>
+                              </select>
+                        </span>
+                    </span>
+                    <span class="control-group col-md-6 col-sm-6">
+                        <label class="control-label star" for="postalcode">Postal Code</label>
+                        <span class="controls">
+                            <input type="text" id="Postalcode" name="Postalcode" required placeholder="Postal Code" class="input-xlarge box">
+                        </span>
+                    </span>
+                    <span class="control-group col-md-6 col-sm-6">
+                        <label class="control-label star" for="Dealer Image">Dealer Image</label>
+                        <span class="controls">
+                            <img id="outputsss"/>
+                           <input type="file" accept="image/*" onchange="loadFile(event)">
+                        </span>
+                    </span>
+                    <span class="control-group star dealerbutton col-md-12 col-sm-12">
+                        <button class="btn btn-success submitbtn">Submit</button>
+                        <button class="btn btn-success resetbtn">Reset</button>
+                    </span>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>

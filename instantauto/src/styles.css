@@ -1,0 +1,18 @@
+a {
+   text-decoration:none!important;
+}
+
+body {
+    background-image: url(./assets/images/car.png);
+    background-size: 133%;
+}
+
+body.loginPage .headermenu {
+    display: none;
+}
+
+p.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}

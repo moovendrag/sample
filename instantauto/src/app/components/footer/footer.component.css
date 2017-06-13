@@ -1,0 +1,53 @@
+
+.footericons span:before {
+    font-family: 'FontAwesome';
+    font-size: 27px;
+    color: #00afef;
+    margin: 0 5px;
+}
+
+.footericons span.facebook:before {
+	content:"\f09a";
+}
+	
+.footericons span.twitter:before {
+    content: "\f081";
+}
+
+.footericons span.skype:before {
+    content:"\f17e";
+}
+
+.footericons span.google:before {
+   content:"\f0d4"; 
+}
+
+.footericons span.linkedin:before {
+   content:"\f0e1";  
+}
+
+.footer {
+    margin-top: 6%;
+    border-top:2px solid;
+    padding-top:10px;
+
+}
+
+span.footericons {
+    float: right;
+    margin-right: 50px;
+}
+
+.footertext span.ftext {
+    margin-right: 15px;
+}
+
+.footer .footertext a {
+    border-right: 2px solid #000;
+    padding-left:8px;
+}
+
+.footer .footertext a:last-child {
+    border:none;
+}
+

@@ -1,0 +1,38 @@
+<div class="container loginpage">
+	<div class="row">
+		<div class="span12">
+			<form class="form-horizontal">
+				<fieldset class="loginstructure">
+					<div>
+						<legend class="loginsection">Instant Auto</legend>
+					</div>
+					<div class="innersection">
+
+						<div class="control-group">
+							<!-- Username -->
+							<label class="control-label" for="username">E-mail ID</label>
+							<div class="controls">
+								<input type="text" id="username" name="username" required placeholder="username" class="input-xlarge box">
+							</div>
+						</div>
+						<div class="control-group">
+							<!-- Password-->
+							<label class="control-label" for="password">Password</label>
+							<div class="controls">
+								<input type="password" id="password" name="password" required placeholder="Password" class="input-xlarge box">
+							</div>
+						</div>
+						<div class="control-group">
+							<!-- Button -->
+							<div class="controls">
+								<span class="btn btn-success submitbtn" (click)="submit()">Submit</span>
+							</div>
+						</div>
+						<small [innerHTML]="loginError" class="error"></small>
+						<div class="fpassword">Forgot Password?</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>

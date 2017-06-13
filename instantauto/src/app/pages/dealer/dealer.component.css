@@ -1,0 +1,51 @@
+fieldset.add-dealer-information {
+    margin: 8% 0;
+}
+
+.adddealerinnersection {
+    border: 2px solid #008bbe;
+    padding: 3%;
+}
+
+span.control-group .control-label {
+    min-width: 200px;
+    text-align: left;
+}
+
+input.choosefile {
+    margin-left: 42%;
+    padding-top: 12px;
+}
+
+.control-label {
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.adddealerinnersection .input-xlarge.box,
+.adddealerinnersection select.soudistate {
+    width: 56%;
+}
+
+.adddealerinnersection select.soudistate {
+    padding: 3px;
+    cursor: pointer;
+}
+
+label.control-label {
+    margin-left: 15px;
+}
+
+.dealerbutton {
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 480px) {
+    label.control-label {
+        margin-left: 0;
+    }
+}
